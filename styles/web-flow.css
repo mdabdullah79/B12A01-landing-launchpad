@@ -1,5 +1,25 @@
 /* nav style */
 
+
+/* Font style */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 34px;
+}
+
+.raleway-normal
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* shared style */
+.text-primary{
+    color: #4e47ff;
+}
 nav{
     display: flex;
 }
