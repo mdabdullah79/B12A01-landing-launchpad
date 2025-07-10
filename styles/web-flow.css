@@ -20,6 +20,18 @@
 .text-primary{
     color: #4e47ff;
 }
+
+.btn-primary{
+    background-color:  #4e47ff;
+    font-weight: bold;
+    font-size: 16;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+}
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
