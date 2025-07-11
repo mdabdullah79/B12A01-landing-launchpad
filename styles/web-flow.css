@@ -10,14 +10,12 @@
   
 }
 
+
 .logo-head{
     font-size: 34px;
 }
 
-.logo-footer{
-    font-size: 100px;
-    align-items: center;
-}
+
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -47,12 +45,12 @@ nav{
 
 main{
     max-width: 1140px;
+    width: 100%;
     margin: 0px auto;
 }
 
 button:hover{
-    background-color: #fefefe;
-    color: black;
+    background-color: #c80909;
     font-size: 20px;
     
 }
@@ -73,6 +71,7 @@ button:hover{
 h1 {
   text-align: center;
 }
+
 .sec-title{
     font-weight: bold;
     font-size: 42px;
@@ -82,32 +81,105 @@ h1 {
     font-size: 24px;
 }
 
+
 .sec1{
     display: flex;
     justify-content: space-between;
     margin: 0px 30px 0px 100px;
     margin-top: 116px;
 }
-
+/* sec2 */
 .sec2{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px 30px 0px 100px;
-    background-color: #b1afe0b4;
+    justify-content: center;
 }
-.sec2-ct{
-    display: flex;
-    justify-content: space-between;
+.sec2-title{
+    font-size: 38px;
+    margin-bottom: 40px;
+}
 
+.sec2-box{
+    text-align: center;
+    padding: 50px 80px;
+    margin-top: 127px;
+    border-radius: 24px;
 }
-.sec2-m{
-    font-size: 80px;
+.sec2-data{
+    display: flex;
+    justify-content: center;
     gap: 158px;
 }
-.se2-mt{
+
+.data-item{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    font-size: 80px;
+    color: #4e47ff;
+    font-weight: bold;
+
+}
+
+.number-label{
     font-size: 20px;
+    color: rgba(0,0, 0, 0.5)
+}
+
+/* sec3 */
+.sec3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 127px;
+}
+.sec3-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.reviwe{
+    display: flex;
+    padding: 24px;
+    gap: 20px;
+}
+.reviewer{
+    display: flex;
+   
+}
+
+.reviwer-box{
+   background-color: rgb(238, 222, 222);
+   padding: 24px;
+   border-radius: 14px;
+  
+   
+}
+.rev-info{
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+}
+/* sec4 */
+
+.sec4{
+    padding: 150px 60px;
+    display: flex;
+    gap:115px;
+}
+
+.sec4-title{
+    font-size: 97px;
+    text-align: left;
+}
+
+.sec4-form{
+    width: 50%;
+    
+}
+
+/* another */
+.seconday-bg{
+    background-color: #d3d2ed;
 }
 .text-centre{
     text-align: center;
@@ -115,9 +187,33 @@ h1 {
 .img1{
     border-radius: 47px;
 }
+/* footer */
+.logo-footer{
+    font-size: 100px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+sec-des{
+    margin-bottom: 8px;
+}
 .footer{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.footer ul li{
+    list-style: none;
+
+}
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.footer ul a{
+    text-decoration: none;
+}
+
