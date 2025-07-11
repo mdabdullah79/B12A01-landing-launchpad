@@ -1,4 +1,4 @@
-/* nav style */
+
 
 
 /* Font style */
@@ -35,12 +35,19 @@
     color: white;
     padding: 12px 36px;
     border-radius: 5px;
+    
 }
+
+.mar-bottom{
+    margin-bottom: 152px;
+}
+
+/* nav style */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 50px 158px;
 }
 
 main{
@@ -55,7 +62,11 @@ button:hover{
     
 }
 
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
 .banner{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,11 +77,8 @@ button:hover{
     font-size: 65px;
    
 }
-.header{
-    background-image: url(../Assets/Hero-bg.png);
-   
 
-}
+
 h1 {
   text-align: center;
 }
@@ -183,7 +191,7 @@ h1 {
 /* sec4 */
 
 .sec4{
-    padding: 150px 60px;
+    padding: 90px 150px;
     display: flex;
     gap:115px;
     align-items: center;
@@ -205,9 +213,8 @@ main input[type="submit"]:hover{
 main input[type="text"],input[type="email"], main textarea,input[type="submit"]{
     font-size: 20px;
     height: 70px;
-    border-radius: 2px;
     display:block;
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     padding: 20px 32px;
     margin-bottom: 19px;
