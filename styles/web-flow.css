@@ -44,7 +44,7 @@ nav{
 }
 
 main{
-    max-width: 2080px;
+    max-width: 2041px;
     width: 100%;
     margin: 0px auto;
 }
@@ -170,6 +170,7 @@ h1 {
     padding: 150px 60px;
     display: flex;
     gap:115px;
+    align-items: center;
 }
 
 .sec4-title{
@@ -180,6 +181,17 @@ h1 {
 .sec4-form{
     width: 50%;
     
+}
+
+main input[type="text"],input[type="email"], main textarea,input[type="submit"]{
+    font-size: 20px;
+    height: 70px;
+    border-radius: 2px;
+    display:block;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px 32px;
+    margin-bottom: 19px;
 }
 
 /* another */
