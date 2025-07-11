@@ -22,7 +22,6 @@
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bold;
   font-style: normal;
 }
 /* shared style */
@@ -33,7 +32,7 @@
 .btn-primary{
     background-color:  #4e47ff;
     font-weight: bold;
-    border: none;
+    border-width: 0px;
     font-size: 16;
     color: white;
     padding: 12px 36px;
@@ -46,27 +45,78 @@ nav{
     margin: 50px 150px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
-
-
+button:hover{
+    background-color: #fefefe;
+    color: black;
+    font-size: 20px;
+    
+}
 
 .banner{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center
 }
 .banner-content{
+    font-weight: 600;
     font-size: 65px;
 }
 .header{
     background-image: url(../Assets/Hero-bg.png);
+
 }
 h1 {
   text-align: center;
 }
+.sec-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.sec-des{
+    font-weight: 100;
+    font-size: 24px;
+}
 
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 100px;
+    margin-top: 116px;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px 0px 100px;
+    background-color: #b1afe0b4;
+}
+.sec2-ct{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sec2-m{
+    font-size: 80px;
+    gap: 158px;
+}
+.se2-mt{
+    font-size: 20px;
+}
+.text-centre{
+    text-align: center;
+}
+.img1{
+    border-radius: 47px;
+}
 .footer{
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
