@@ -100,7 +100,7 @@ h1 {
 
 .sec2-box{
     text-align: center;
-    padding: 50px 80px;
+    padding: 50px 200px;
     margin-top: 127px;
     border-radius: 24px;
 }
@@ -148,9 +148,10 @@ h1 {
 }
 
 .reviwer-box{
-   background-color: rgb(238, 222, 222);
+   background-color: rgb(247, 240, 240);
    padding: 24px;
    border-radius: 14px;
+   text-align: left;
   
    
 }
@@ -158,6 +159,7 @@ h1 {
     margin-left: 2px;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 /* sec4 */
 
@@ -184,6 +186,11 @@ h1 {
 .text-centre{
     text-align: center;
 }
+ 
+.small-text{
+    color: rgba(0,0, 0, 0.5)
+}
+
 .img1{
     border-radius: 47px;
 }
@@ -215,5 +222,6 @@ sec-des{
 }
 .footer ul a{
     text-decoration: none;
+    color: rgba(0,0, 0, 0.5)
 }
 
